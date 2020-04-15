@@ -52,7 +52,7 @@ class UserProfile extends Component {
         })
       }}
     catch (error) {
-      alert("ERROR")
+      console.log("ERROR")
     }
   }
 
@@ -121,7 +121,7 @@ class UserProfile extends Component {
   render() {
     let userExperiences = this.state.experiences && this.state.experiences.map((experience, index) => {
       return (
-        <div key={index}>
+        <div className = "Experience" key={index}>
           <h2>{experience.name}</h2>
           <h2>{experience.location}</h2>
           <p>{experience.description}</p>
@@ -138,7 +138,6 @@ class UserProfile extends Component {
     return (
       <>
         <h1>{this.state.user}</h1>
-        <img src="https://vignette.wikia.nocookie.net/p__/images/e/e9/P435859342-3.jpg/revision/latest/scale-to-width-down/340?cb=20140529235856&path-prefix=protagonist">{this.state.avatar}</img>
         <h2>{this.state.email}</h2>
         {this.state.isEdit === true
           ?

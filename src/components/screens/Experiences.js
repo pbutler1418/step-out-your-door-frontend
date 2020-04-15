@@ -35,9 +35,12 @@ class Experiences extends Component {
     let allExperiences = this.state.experiences.map((experience, index) => {
       return (
         <>
-        <div key={index}>
-          <h2>{experience.name}</h2>
-          <h2>{experience.location}</h2>
+          <div className = "Experience"key={index}>
+            <h2>Name:</h2>
+            <p>{experience.name}</p>
+            <h2>Location:</h2>
+            <p>{experience.location}</p>
+            <h2>Description:</h2>
           <p>{experience.description}</p>
           
         </div>

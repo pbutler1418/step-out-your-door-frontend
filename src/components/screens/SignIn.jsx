@@ -8,13 +8,16 @@ const SignIn = (props) => {
   return (
     <div className = "StartUp">
       <h2>Sign In</h2>
+      <div className = "formStyle">
       <form onSubmit={(e) => {
         e.preventDefault();
-        props.handleLogin();}} className = "StartUp">
-        <input name="email" type="text" value={props.authFormData.email} onChange={props.handleChange} />
-        <input name="password" type="password" value={props.authFormData.password} onChange={props.handleChange} />
+        props.handleLogin();}} >
+        <input name="email" placeholder="email"type="text" value={props.authFormData.email} onChange={props.handleChange} />
+        <input name="password" placeholder="password" type="password" value={props.authFormData.password} onChange={props.handleChange} />
         <button>Sign In</button>
-      </form>
+        </form>
+      </div>
+      
     </div>
   );
 }
