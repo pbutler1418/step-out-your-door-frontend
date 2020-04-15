@@ -2,6 +2,8 @@
 
 ### Deployed Site: http://stepoutyourdoor.surge.sh/
 
+### Link to Backend Repo: https://github.com/pbutler1418/step_out_your_door_backend
+
 ### Description
 	The Stepping Out Your Door Travel App will allow the user to find and get inspired by new travel experiences, save those experiences to a bucket list, and even post their own unique adventures to inspire others!
 
