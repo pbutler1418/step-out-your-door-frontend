@@ -38,9 +38,7 @@ In order to create the "Teleporter" component, I embedded an Airpano search engi
 
 ## Wireframes
 
-<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.29.15 AM.png">
-<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.30.41 AM.png">
-<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.31.25 AM.png">
-<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.29.33 AM.png">
-<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.31.10 AM.png">
+<img width="1440" alt="Screen Shot 2020-05-01 at 5 26 54 PM" src="https://user-images.githubusercontent.com/59346178/80843547-9789b980-8bd2-11ea-9f22-8f72fc13f7ed.png">
+<img width="1440" alt="Screen Shot 2020-05-01 at 5 26 45 PM" src="https://user-images.githubusercontent.com/59346178/80843587-a8d2c600-8bd2-11ea-8c64-413bc5572f8e.png">
+<img width="1440" alt="Screen Shot 2020-05-01 at 5 27 42 PM" src="https://user-images.githubusercontent.com/59346178/80843702-f818f680-8bd2-11ea-9d00-ad94fc723d72.png">
 
