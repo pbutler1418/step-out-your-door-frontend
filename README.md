@@ -1,45 +1,46 @@
-### Stepping Out Your Door Travel App
+# Stepping Out Your Door
 
-### Deployed Site: http://stepoutyourdoor.surge.sh/
+## Description
+The Stepping Our Your Door app is an Atlas Exotica clone where users can create their own experience journal to add all of the interesting experiences they might wish to share, read about experiences other users have shared, and add experiences to a "bucketlist" so they can keep track of ideas for future adventures. The app uses a React front-end to let the user to navigate through the site, and a Ruby on Rails backend to store user information. The app also successfully implements an authorization process to let users register, sign in, sign out, and then have access to CRUD capabilities when signed in. The Stepping Out Your Door front-end is deployed on Surge and it's backend is deployed on Heroku. 
 
-### Link to Backend Repo: https://github.com/pbutler1418/step_out_your_door_backend
+Link to deployed site: 
 
-### Description
-	The Stepping Out Your Door Travel App will allow the user to find and get inspired by new travel experiences, save those experiences to a bucket list, and even post their own unique adventures to inspire others!
+* http://stepoutyourdoor.surge.sh/
 
-### MVP
-Users can create a user profile for repeated use.
-Users can  journal their own experiences, browse through previously posted experiences.
-Utilize a “Teleporter” component that will let the user search for a location and return a 360 image covering the whole page, allowing the user to “experience” a location from all over the world. 
-Styling to create an immersive experience for the user.
+Link to Backend Repository: 
 
-### Post MVP
-Add a google maps component to the home page that will display where all the experiences logged into the app are located and/or embed the Atlas Obscura interactive map to let users discover new experiences.
-Implement an extra third party api to let the user access travel information to get them started on their next journey. 
-Add a feature to save their favorite to a bucket list.
+* https://github.com/pbutler1418/step_out_your_door_backend
 
+## MVP
+* Be built with a React frontend, a Ruby on Rails backend, HTML, CSS, and JavaScript.
+* Use Axios to consume data from an external source, and render that data into the DOM.
+* Use flexbox (display: flex).
+* Implement responsive design on 3 screen sizes (including desktop) using 2 media queries (tablet and mobile).
+* Utilize React Router, installed via NPM.
+* Implement a working authorization component.
+* Apply multiple association relationships between components. 
+* Possess full CRUD (Create, Read, Update, Destroy) capabilities.
+* Deployed on Surge/Heroku.
 
-### Component Hierarchy
-
-https://drive.google.com/file/d/1LdFobG4C6KZswyXudGRgLuJYlyAQQNFf/view?usp=sharing
-
-### Server Side Routes
-
-get '/users/', to: 'users#index'
-get '/experiences/', to: 'experiences#index'
-post '/users/:id/', to: 'users#show'
-post '/users/:id/experiences', to: 'experiences#create'
-get '/users/:id/experiences', to: 'experiences#show'
-put '/users/:id/', to: 'users#update'
-delete '/users/:user_id/experiences/:id', to: 'experiences#delete'
+## Post-MVP
+* Provde an immersive almost cinematic experience for the user. 
+* Add a 360 image or video component that allows the user to explore the world right from the app.
+* Modify the user's profile to include a "bucketlist" component that the user can use to add experiences they want to one day do, or add experiences straight from the Experience component. 
 
 
-# ============== Auth =====================
-post '/users/', to: 'users#create'
-post '/auth/login', to: 'authentication#login'
-get '/auth/verify', to: 'authentication#verify'
-end
+## Component Hierarchy
 
-### Outside Sources Used
+* https://drive.google.com/file/d/1LdFobG4C6KZswyXudGRgLuJYlyAQQNFf/view?usp=sharing
 
-Airpano.com. Airpano is a website that allows you to search for 360 degree images and videos from around the world. A cool way to get inspiration for your next trip!
+
+## Outside Technologies Used
+In order to create the "Teleporter" component, I embedded an Airpano search engine which allows users to search through a collection of 360° photos, and, in essence, teleporting around the world! Source: AirPano.com
+
+## Wireframes
+
+<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.29.15 AM.png">
+<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.30.41 AM.png">
+<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.31.25 AM.png">
+<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.29.33 AM.png">
+<img src ="rugby-wiki/wireframes/Screen Shot 2020-02-28 at 9.31.10 AM.png">
+
